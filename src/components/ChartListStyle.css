@@ -1,0 +1,66 @@
+*{
+    font-family: 'MuseoModerno', cursive;
+    margin: 0;
+}
+
+.song-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 95vw;
+    margin: auto;
+
+}
+
+.song-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 29vh;
+    width: 29vh;
+    margin: 1vh;
+    border: solid 2px black;
+    text-align: center;
+    font-size: 2vh;
+    border-radius: 1vh;
+}
+
+.song-img{
+    width: 17vh;
+}
+
+a{
+    text-decoration: none;    color: black;
+}
+
+a:hover{
+    border-radius: 1vh;
+}
+
+a:hover:nth-child(5n + 1){
+    background-color: #89FFF8;
+    border-radius: 1vh;
+}
+
+a:hover:nth-child(5n + 2){
+    background-color: #89FF89;
+    border-radius: 1vh;
+}
+
+a:hover:nth-child(5n + 3){
+    background-color: #E6FF89;
+    border-radius: 1vh;
+}
+
+a:hover:nth-child(5n + 4){
+    background-color: #FFC489;
+    border-radius: 1vh;
+}
+
+a:hover:nth-child(5n){
+    background-color: #FF89EF;
+    border-radius: 1vh;
+}
+
